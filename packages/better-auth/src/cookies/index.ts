@@ -10,7 +10,7 @@ import { base64Url } from "@better-auth/utils/base64";
 import { binary } from "@better-auth/utils/binary";
 import { createHMAC } from "@better-auth/utils/hmac";
 import type { CookieOptions } from "better-call";
-import { ms } from "ms";
+import { ms } from "../utils/ms";
 import {
 	signJWT,
 	symmetricDecodeJWT,

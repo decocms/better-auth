@@ -1,6 +1,5 @@
 import type { BetterAuthPlugin } from "@better-auth/core";
-import type { StringValue as MSStringValue } from "ms";
-import { ms } from "ms";
+import { ms, type StringValue as MSStringValue } from "../../utils/ms";
 import * as z from "zod";
 import { mergeSchema } from "../../db";
 import type { InferOptionSchema } from "../../types/plugins";
